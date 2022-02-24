@@ -86,15 +86,20 @@
 <p align="center">
 <table align="center">
  <tr>
-  <td align="center"><img  width="50%" height="50%" title="Внешний вид Horizontal Radio Button" src="img/radio.jpg" alt="Внешний вид Horizontal Radio Button"></img></td>
+  <td align="center">
+   <img  width="50%" height="50%" title="Внешний вид Horizontal Radio Button" src="img/radio.jpg" alt="Внешний вид Horizontal Radio Button"></img>
+ <p align="center">Скриншот 4 — Внешний вид Horizontal Radio Button</p>
+ </td>
  </tr>
  <br>
  <tr>
-  <td align="center"><img  width="75%" height="75%" title="Внешний вид объекта Select" src="img/select.jpg" alt="Внешний вид объекта Select"></img></td>
+  <td align="center"><img  width="75%" height="75%" title="Внешний вид объекта Select" src="img/select.jpg" alt="Внешний вид объекта Select"></img>
+  <p align="center">Скриншот 5 — Внешний вид объекта Select</p></td>
  </tr>
  <br>
  <tr>
-  <td align="center"><img  width="75%" height="75%" title="Целочисленная переменная в PD (Max)" src="img/var.jpg" alt="Целочисленная переменная в PD (Max)"></img></td>
+  <td align="center"><img  width="75%" height="75%" title="Целочисленная переменная в PD (Max)" src="img/var.jpg" alt="Целочисленная переменная в PD (Max)"></img>
+  <p align="center">Скриншот 6 — Целочисленная переменная в PD (Max)</p></td>
  </tr>
 </table>
  </p>
