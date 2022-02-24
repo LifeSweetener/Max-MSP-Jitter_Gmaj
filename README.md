@@ -45,4 +45,4 @@
 
 <p align="justify">Помимо всего, у каждого языка есть своя документация — у Pure Data она тоже есть (https://puredata.info/docs), в том числе и встроенный обучающий, справочный модуль <i>"help-intro"</i> в IDE.</p>
 
-<p align="justify"><table width="70%" height="50%" align="center"><tr><td><img align="center" title="Окно справки в Pure Data" src="img/help module.jpg" alt="Общий вид справочного Windows-модуля Pure Data"></img></td></tr></table><p align="center">Скриншот 1 — Справочное окно в Pure Data</p></p>
+<p align="justify"><table width="80%" height="80%" align="center"><tr><td><img align="center" title="Окно справки в Pure Data" src="img/help module.jpg" alt="Общий вид справочного Windows-модуля Pure Data"></img></td></tr></table><p align="center">Скриншот 1 — Справочное окно в Pure Data</p></p>
