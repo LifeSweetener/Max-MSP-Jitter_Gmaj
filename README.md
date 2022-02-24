@@ -36,8 +36,8 @@
 <ul>
  <li>в Java это файлы <code>.java</code>;</li>
  <li>в C++ это исходники формата <code>.cpp</code>, <code>.h</code> или <code>.c</code>;</li>
- <li>а Python-разработчики скрипты пишут в файлах .py;</li>
-</ul><br>
+ <li>а Python-разработчики скрипты пишут в файлах <code>.py</code>;</li>
+</ul>
 в Max/MSP/Jitter программы пишутся в файлах, называемых патчами и имеющих расширение <code>.pd</code>.
 </p>
 
@@ -45,4 +45,4 @@
 
 <p align="justify">Помимо всего, у каждого языка есть своя документация — у Pure Data она тоже есть (https://puredata.info/docs), в том числе и встроенный обучающий, справочный модуль <i>"help-intro"</i> в IDE.</p>
 
-<p><img></img></p>
+<p align="justify"><table align="center"><tr><td><img align="center" title="Окно справки в Pure Data" src="help module.jpg" alt="Общий вид справочного Windows-модуля Pure Data"></img></td></tr></table><p align="center">Скриншот 1 — Справочное окно в Pure Data</p></p>
