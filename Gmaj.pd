@@ -1,0 +1,76 @@
+#N canvas 934 66 838 736 12;
+#X floatatom 178 48 5 0 0 0 - - - 0;
+#X floatatom 265 47 5 1 200 0 bpm - - 0;
+#X obj 229 105 *;
+#X listbox 229 155 20 0 0 0 - - - 0;
+#X obj 265 10 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
+#c6ffc7 #000000 #000000 0 256;
+#X obj 503 366 bng 25 250 50 0 empty empty empty 17 7 0 10 #00ff04
+#000000 #000000;
+#X obj 178 3 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000
+0 1;
+#X obj 229 263 print bpm, f 16;
+#X msg 431 227 tempo \$1 permin;
+#X obj 592 227 nbx 6 20 1000 1000 0 1 1000 1000 empty 0 -8 0 10 #c6ffc7
+#000000 #000000 1000 256;
+#X obj 79 331 cnv 15 300 375 empty empty max_test2 20 0 0 20 #feffc6
+#202020 0;
+#X obj 224 575 osc~;
+#X obj 206 644 output~;
+#X obj 459 293 metro;
+#X obj 307 384 hradio 15 1 0 3 empty empty empty 0 -8 0 10 #fcfcfc
+#000000 #000000 0;
+#X obj 260 428 select 0 1;
+#X floatatom 147 510 5 0 0 0 - - - 0;
+#X floatatom 225 510 5 0 0 0 - - - 0;
+#X floatatom 287 511 5 0 0 0 - - - 0;
+#X obj 195 460 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 253 463 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 313 463 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 351 350 int 0, f 7;
+#X obj 422 322 bng 15 300 75 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X floatatom 543 515 5 0 0 0 - - - 0;
+#X floatatom 472 518 5 0 0 0 - - - 0;
+#X floatatom 403 522 5 0 0 0 - - - 0;
+#X text 413 9 Единица переключателя означает
+запуск метронома с заданным числом BPM
+(сейчас bpm=120);
+#X text 517 68 Функция tempo меняет темп у метронома
+metro;
+#X connect 0 0 2 0;
+#X connect 1 0 2 1;
+#X connect 2 0 3 0;
+#X connect 3 0 7 0;
+#X connect 3 0 8 0;
+#X connect 3 0 13 0;
+#X connect 4 0 1 0;
+#X connect 6 0 0 0;
+#X connect 8 0 13 0;
+#X connect 9 0 13 1;
+#X connect 11 0 12 0;
+#X connect 11 0 12 1;
+#X connect 13 0 5 0;
+#X connect 13 0 23 0;
+#X connect 14 0 15 0;
+#X connect 15 0 19 0;
+#X connect 15 1 20 0;
+#X connect 15 2 21 0;
+#X connect 16 0 11 0;
+#X connect 17 0 11 0;
+#X connect 18 0 11 0;
+#X connect 19 0 16 0;
+#X connect 19 0 26 0;
+#X connect 20 0 17 0;
+#X connect 20 0 25 0;
+#X connect 21 0 18 0;
+#X connect 21 0 24 0;
+#X connect 22 0 14 0;
+#X connect 23 0 22 0;
+#X connect 24 0 22 1;
+#X connect 25 0 22 1;
+#X connect 26 0 22 1;
+#X coords 0 736 1 735 85 60 0;
